@@ -4,7 +4,7 @@ This the a example for GPU exploration and a test for benchmarking results.
 
 ## Documentation
 
-See https://github.com/oskarth/mopro/mopro-core/gpu-exploration/README.md
+See https://github.com/zkmopro/mopro/blob/main/mopro-core/gpu_explorations/README.md
 
 ## Usage
 
