@@ -13,7 +13,7 @@ struct ExampleAppApp: App {
     var body: some Scene {
         WindowGroup {
             // Enable the view you want
-//            MultiplierCircuitView()
+
              MSMBenchmarkView()
         }
     }
