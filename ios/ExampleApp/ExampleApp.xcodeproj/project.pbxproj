@@ -14,16 +14,13 @@
 		CE259EC92B99CCB60035CC36 /* mopro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE259EC82B99CCB60035CC36 /* mopro.swift */; };
 		CE259ECB2B99DF5D0035CC36 /* mopro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE259EC82B99CCB60035CC36 /* mopro.swift */; };
 		CE259ECC2B99DF5E0035CC36 /* mopro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE259EC82B99CCB60035CC36 /* mopro.swift */; };
-		CEBBB4072B9C1974007305CF /* MultiplierCircuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB4062B9C1974007305CF /* MultiplierCircuitView.swift */; };
-		CEBBB4092B9C1A36007305CF /* KeccakCircuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB4082B9C1A36007305CF /* KeccakCircuitView.swift */; };
 		CEBBB40B2B9C1BE5007305CF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBBB40A2B9C1BE5007305CF /* Utils.swift */; };
-		CEF891252B9834BB0033AE93 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF891242B9834BB0033AE93 /* ExampleAppApp.swift */; };
+		CEF891252B9834BB0033AE93 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF891242B9834BB0033AE93 /* ExampleApp.swift */; };
 		CEF891292B9834BC0033AE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF891282B9834BC0033AE93 /* Assets.xcassets */; };
 		CEF8912C2B9834BC0033AE93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF8912B2B9834BC0033AE93 /* Preview Assets.xcassets */; };
 		CEF891362B9834BC0033AE93 /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF891352B9834BC0033AE93 /* ExampleAppTests.swift */; };
 		CEF891402B9834BC0033AE93 /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8913F2B9834BC0033AE93 /* ExampleAppUITests.swift */; };
 		CEF891422B9834BC0033AE93 /* ExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF891412B9834BC0033AE93 /* ExampleAppUITestsLaunchTests.swift */; };
-		CEFE53D22BA0009D00C62826 /* KeccakDylibCircuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE53D12BA0009D00C62826 /* KeccakDylibCircuitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +52,9 @@
 		C54051D9C0E3A7517C109F23 /* Pods-ExampleApp-ExampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp-ExampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleApp-ExampleAppUITests/Pods-ExampleApp-ExampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE259EC32B99C4000035CC36 /* MoproBindings.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MoproBindings.xcframework; path = Frameworks/MoproBindings.xcframework; sourceTree = "<group>"; };
 		CE259EC82B99CCB60035CC36 /* mopro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mopro.swift; path = Bindings/mopro.swift; sourceTree = SOURCE_ROOT; };
-		CEBBB4062B9C1974007305CF /* MultiplierCircuitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplierCircuitView.swift; sourceTree = "<group>"; };
-		CEBBB4082B9C1A36007305CF /* KeccakCircuitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeccakCircuitView.swift; sourceTree = "<group>"; };
 		CEBBB40A2B9C1BE5007305CF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		CEF891212B9834BB0033AE93 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF891242B9834BB0033AE93 /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
+		CEF891242B9834BB0033AE93 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		CEF891282B9834BC0033AE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF8912B2B9834BC0033AE93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEF891312B9834BC0033AE93 /* ExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +62,6 @@
 		CEF8913B2B9834BC0033AE93 /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF8913F2B9834BC0033AE93 /* ExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITests.swift; sourceTree = "<group>"; };
 		CEF891412B9834BC0033AE93 /* ExampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CEFE53D12BA0009D00C62826 /* KeccakDylibCircuitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeccakDylibCircuitView.swift; sourceTree = "<group>"; };
 		F80B6518EE5CB44358676AD9 /* Pods-ExampleApp-ExampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp-ExampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleApp-ExampleAppUITests/Pods-ExampleApp-ExampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,10 +140,7 @@
 		CEF891232B9834BB0033AE93 /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEBBB4062B9C1974007305CF /* MultiplierCircuitView.swift */,
-				CEFE53D12BA0009D00C62826 /* KeccakDylibCircuitView.swift */,
-				CEF891242B9834BB0033AE93 /* ExampleAppApp.swift */,
-				CEBBB4082B9C1A36007305CF /* KeccakCircuitView.swift */,
+				CEF891242B9834BB0033AE93 /* ExampleApp.swift */,
 				CEF891282B9834BC0033AE93 /* Assets.xcassets */,
 				CEF8912A2B9834BC0033AE93 /* Preview Content */,
 				CEBBB40A2B9C1BE5007305CF /* Utils.swift */,
@@ -397,12 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBBB40B2B9C1BE5007305CF /* Utils.swift in Sources */,
-				CEFE53D22BA0009D00C62826 /* KeccakDylibCircuitView.swift in Sources */,
 				CE259EC92B99CCB60035CC36 /* mopro.swift in Sources */,
-				CEF891252B9834BB0033AE93 /* ExampleAppApp.swift in Sources */,
-				CEBBB4072B9C1974007305CF /* MultiplierCircuitView.swift in Sources */,
+				CEF891252B9834BB0033AE93 /* ExampleApp.swift in Sources */,
 				1EEDB2B12BD478C7004D4581 /* MSMBenchmarkView.swift in Sources */,
-				CEBBB4092B9C1A36007305CF /* KeccakCircuitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -584,6 +572,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -599,7 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -614,6 +605,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -628,7 +622,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -647,14 +641,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -669,7 +665,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleAppUITests;
@@ -688,7 +684,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2699K68G5P;
+				DEVELOPMENT_TEAM = 82Y79L4XYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mopro.ExampleAppUITests;

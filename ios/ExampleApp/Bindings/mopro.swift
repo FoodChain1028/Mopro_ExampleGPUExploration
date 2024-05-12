@@ -400,7 +400,7 @@ private struct FfiConverterData: FfiConverterRustBuffer {
 
 public protocol MoproCircomProtocol {
     func generateProof(circuitInputs: [String: [String]]) throws -> GenerateProofResult
-    func initialize(arkzkeyPath: String, wasmPath: String) throws
+    func initialize(zkeyPath: String, wasmPath: String) throws
     func verifyProof(proof: Data, publicInput: Data) throws -> Bool
 }
 
@@ -433,11 +433,11 @@ public class MoproCircom: MoproCircomProtocol {
         )
     }
 
-    public func initialize(arkzkeyPath: String, wasmPath: String) throws {
+    public func initialize(zkeyPath: String, wasmPath: String) throws {
         try
             rustCallWithError(FfiConverterTypeMoproError.lift) {
                 uniffi_mopro_ffi_fn_method_moprocircom_initialize(self.pointer,
-                                                                  FfiConverterString.lower(arkzkeyPath),
+                                                                  FfiConverterString.lower(zkeyPath),
                                                                   FfiConverterString.lower(wasmPath), $0)
             }
     }
@@ -989,7 +989,7 @@ private var initializationResult: InitializationResult {
     if uniffi_mopro_ffi_checksum_method_moprocircom_generate_proof() != 64602 {
         return InitializationResult.apiChecksumMismatch
     }
-    if uniffi_mopro_ffi_checksum_method_moprocircom_initialize() != 36559 {
+    if uniffi_mopro_ffi_checksum_method_moprocircom_initialize() != 50370 {
         return InitializationResult.apiChecksumMismatch
     }
     if uniffi_mopro_ffi_checksum_method_moprocircom_verify_proof() != 61522 {
